@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 15px;
+}
+header{
+    background-image: url(./images/mobile/image-hero.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center center ;
+}
+header{
+    height: 110vh;
+}
+.section img{
+    gap: 2%;
+}
+:root{
+    --White: hsl(0, 0%, 100%)
+    -- Black: hsl(0, 0%, 0%)
+    -- Dark Gray: hsl(0, 0%, 55%)
+    -- Very Dark Gray: hsl(0, 0%, 41%)
+}
+.logo{
+    margin-left: 200px;
+   padding-top: 40px;
+}
+.nav ol{
+    display: flex;
+    gap: 3%;
+    float: right;
+    margin-right: 200px;
+    padding-top: 10px;
+}
+header nav ol{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+header nav ol{
+    list-style-type: none;
+    display: none;
+    align-items: center;
+    font-size: 20px;
+}
+header nav ol li a:hover{
+    scrollbar-face-color:  hsl(0, 0%, 100%);
+}
+header nav ol li a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    align-items: center;
+    gap:10px;
+}
+ 
+h1{
+    color:hsl(0, 0%, 100%); 
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    border: hsl(0, 0%, 100%);
+    font-size: 70px;
+}
+.sil{
+    margin-left: 200px;
+    margin-top: 300px;
+    
+}
+.back{
+    background: hsl(0, 0%, 100%);
+    width: 600px;
+    height: 500px;
+    background-image: url("./images/mobile/image-interactive.jpg");
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    margin-left: 100px;
+    /* width: 550px; */
+}
+.form{
+    background: hsl(0, 0%, 100%);
+    width: 350px;
+    height: 250px;
+    margin-left: 500px;
+    margin-top: 80px;  
+}
+.form p{
+    color: hsl(0, 0%, 55%);
+ font-family: 'Alata', sans-serif;;
+    font-weight: 300;
+}
+.form h2{
+    color: hsl(0, 0%, 0%);
+    font-size: x-large;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.footer{
+    padding-top: 30px;
+    background: hsl(0, 0%, 0%);
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.na{
+    display: flex;
+}
+footer ol li{
+    text-decoration: none;
+
+}
+.footer ol li a{
+  color: hsl(0, 0%, 100%);
+  list-style-type: none;
+  text-decoration: none;
+  
+}
+.na ol li{
+    gap: 10px;
+    display: flex;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 720) {
+  
+    header{
+        background-image: url("./images/desktop/image-hero.jpg");
+    }
+    header nav ol{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+    .back{
+        background: hsl(0, 0%, 100%);
+        width: 600px;
+        height: 500px;
+        background-image: url("./images/desktop/image-interactive.jpg");
+        background-repeat: no-repeat;
+        margin-top: 70px;
+        margin-left: 100px;
+        width: 550px;
+    }
+    
+
+
+}
+    
+
